@@ -1,0 +1,29 @@
+{
+  "name": "centralized-api-gateway-service",
+  "version": "1.0.0",
+  "description": "Run a central api gateway and use vpc link to integrate with private resources in other accounts",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "author": {
+    "name": "Amazon Web Services",
+    "url": "https://aws.amazon.com",
+    "organization": true
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "^8.10.38",
+    "aws-cdk": "*",
+    "typescript": "~3.9.7",
+    "aws-sdk": "2.1093.0"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "^2.0.0",
+    "constructs": "^10.0.0",
+    "@aws-cdk/aws-apigatewayv2-alpha": "2.16.0-alpha.0",
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha": "2.16.0-alpha.0"
+  }
+}

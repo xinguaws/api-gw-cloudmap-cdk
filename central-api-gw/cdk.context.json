@@ -1,0 +1,14 @@
+{
+  "availability-zones:account=880792381076:region=us-west-1": [
+    "us-west-1b",
+    "us-west-1c"
+  ],
+  "endpoint-service-availability-zones:account=880792381076:region=us-west-1:serviceName=com.amazonaws.vpce.us-west-1.vpce-svc-0fabac7607f9d40b9": [
+    "us-west-1b",
+    "us-west-1c"
+  ],
+  "endpoint-service-availability-zones:account=880792381076:region=us-west-1:serviceName=com.amazonaws.vpce.us-west-1.vpce-svc-0c9d50d5b9f20db3c": [
+    "us-west-1b",
+    "us-west-1c"
+  ]
+}
